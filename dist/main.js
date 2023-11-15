@@ -1,1 +1,1 @@
-console.log("Everything is set up correctly");
+(()=>{"use strict";!function(){const e=document.createElement("h1"),t=document.createElement("img"),n=document.createElement("p");e.textContent="Freddy's Hamstaurant",t.src="../dist/ham.jpg",n.textContent="Come to Freddy's Hamstaurant for the world's thickest ham-slice sandwiches!",document.getElementById("content").appendChild(e),document.getElementById("content").appendChild(t),document.getElementById("content").appendChild(n)}()})();

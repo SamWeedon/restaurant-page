@@ -1,1 +1,3 @@
-console.log('Everything is set up correctly');
+import pageLoad from './pageLoad.js';
+
+pageLoad();
