@@ -1,11 +1,12 @@
 import removeAllChildren from './removeAllChildren.js';
+import hamImage from './ham.jpg';
 
 export default function loadHome() {
     const content = document.getElementById('content');
     removeAllChildren(content);
 
-    const image = document.createElement('img');
-    image.src = '../dist/ham.jpg';
+    const image = new Image();
+    image.src = hamImage;
     image.style.width = '400px';
     content.appendChild(image);
 
