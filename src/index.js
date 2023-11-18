@@ -2,6 +2,12 @@ import loadHome from './home.js';
 import loadMenu from './menu.js';
 import loadContact from './contact.js';
 
+const mainContent = document.getElementById('content');
+mainContent.style.display = 'flex';
+mainContent.style.flexDirection = 'column';
+mainContent.style.alignItems = 'center';
+
+
 const header = document.getElementById('header');
 header.style.display = 'flex';
 header.style.flexDirection = 'column';

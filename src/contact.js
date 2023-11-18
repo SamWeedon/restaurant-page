@@ -5,6 +5,10 @@ export default function loadContact() {
     removeAllChildren(content);
 
     const number = document.createElement('p');
-    number.textContent = '000-000-0000';
+    number.textContent = '1-800-HAM-TALK';
     content.appendChild(number);
+
+    const email = document.createElement('p');
+    email.textContent = 'johnnyham@email.com';
+    content.appendChild(email);
 }

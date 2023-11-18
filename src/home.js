@@ -6,6 +6,7 @@ export default function loadHome() {
 
     const image = document.createElement('img');
     image.src = '../dist/ham.jpg';
+    image.style.width = '400px';
     content.appendChild(image);
 
     const paragraph = document.createElement('p');
